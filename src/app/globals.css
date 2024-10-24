@@ -1,27 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
 @tailwind base;
+
+@layer base {
+  html {
+    @apply text-surface;
+    @apply bg-white;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-body-dark;
+  }
+}
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.caixa-cinza {
+  width: 123px;
+  height: 103px;
+  background-color: gray;
+  border-radius: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.primaria{
+  color: #93720E;
+}
+.transparente-primaria{
+  background-color: #23232388;
+}
+.transparente-secundaria:hover{
+  background-color: #a4dae45d;
+}
+.transparente-black{
+  background-color: #29292942;
+}
+.bg-footer{
+  background: linear-gradient(
+    90deg, 
+    #292929 0%, 
+    #000000 100%
+  );
+}
+.secundaria{
+  color: #A4DAE4;
+}
+.slogan-titulo{
+  color: #D3A731;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.terciaria{
+  color: #FFF793;
+}
+body{
+  background: linear-gradient(
+    90deg, 
+    #2D2304 0%, 
+    #93720E 49%, 
+    #392C05 100%
+  ); /* Ajuste conforme necessário */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.input-container input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  background: transparent;
+  font-size: 16px;
+  border: 2px solid #93720E;
+  border-radius: 10px;
+  
+  flex: 1;
+}
+
+.input-container button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 10px;
+  /* translate: ; */
 }
