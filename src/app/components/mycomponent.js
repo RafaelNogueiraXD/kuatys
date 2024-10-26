@@ -26,18 +26,18 @@ const MyComponent = () => {
     <div className="mx-auto lg:w-1/2 sm:w-full content-center justify-center my-auto mt-20 mb-20">
      <div id="accordionFlushExample">
         <div
-            className="rounded-none border border-e-0 border-s-0 border-t-0 border-neutral-200 transparente-black text-cyan-300 ">
+            className="rounded-none border border-e-0 border-s-0 border-t-0 border-neutral-200 transparente-black text-cyan-400 ">
             <h2 className="mb-0" id="flush-headingOne">
             <button
-                className="group relative flex w-full items-center rounded-none border-0 transparente-black text-cyan-300 px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:text-cyan-300 [&:not([data-twe-collapse-collapsed])]:transparente-black text-cyan-300 [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
+                className="group relative flex w-full items-center rounded-none border-0 transparente-black text-cyan-400 px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:text-cyan-400 [&:not([data-twe-collapse-collapsed])]:transparente-black text-cyan-400 [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
                 type="button"
                 data-twe-collapse-init
                 data-twe-target="#flush-collapseOne"
                 aria-expanded="false"
                 aria-controls="flush-collapseOne">
                 <div className="grid grid-cols-12 gap-4">
-                    <div className="col-span-12 md:col-span-3 text-center"><h1 className="text-2xl">Kuatys petiscos</h1></div>
-                    <div className="col-span-12 md:col-span-4 text-center content-center">Serve 4 pessoas</div>
+                    <div className="col-span-12 md:col-span-3 text-center text-cyan-400"><h1 className="text-2xl">Kuatys petiscos</h1></div>
+                    <div className="col-span-12 md:col-span-4 text-center content-center text-cyan-400">Serve 4 pessoas</div>
                 </div>
                 <span
                 className="-me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
@@ -69,10 +69,10 @@ const MyComponent = () => {
             </div>
         </div>
         <div
-            className="rounded-none border border-e-0 border-s-0 border-t-0 border-neutral-200 transparente-black text-cyan-300 ">
+            className="rounded-none border border-e-0 border-s-0 border-t-0 border-neutral-200 transparente-black text-cyan-400 ">
             <h2 className="mb-0" id="flush-headingTwo">
             <button
-                className="group relative flex w-full items-center rounded-none border-0 transparente-black text-cyan-300 px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:text-cyan-300 [&:not([data-twe-collapse-collapsed])]:transparente-black text-cyan-300 [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
+                className="group relative flex w-full items-center rounded-none border-0 transparente-black text-cyan-400 px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:text-cyan-400 [&:not([data-twe-collapse-collapsed])]:transparente-black text-cyan-400 [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
                 type="button"
                 data-twe-collapse-init
                 data-twe-collapse-collapsed
@@ -80,8 +80,8 @@ const MyComponent = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo">
                 <div className="grid grid-cols-12 gap-4">
-                    <div className="col-span-12 md:col-span-3 text-center content-center"><h1 className="text-2xl">Barca de petiscos</h1></div>
-                    <div className="col-span-12 md:col-span-4 text-center content-center">Serve de 2 a 3 pessoas</div>
+                    <div className="col-span-12 md:col-span-3 text-center content-center"><h1 className="text-2xl text-cyan-400">Barca de petiscos</h1></div>
+                    <div className="col-span-12 md:col-span-4 text-center content-center text-cyan-400">Serve de 2 a 3 pessoas</div>
                 </div>
                 <span
                 className="-me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
@@ -111,10 +111,10 @@ const MyComponent = () => {
             </div>
         </div>
         <div
-            className="rounded-none border border-e-0 border-s-0 border-t-0 border-neutral-200 transparente-black text-cyan-300 ">
+            className="rounded-none border border-e-0 border-s-0 border-t-0 border-neutral-200 transparente-black text-cyan-400 ">
             <h2 className="mb-0" id="flush-headingThree">
             <button
-                className="group relative flex w-full items-center rounded-none border-0 transparente-black text-cyan-300 px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:text-cyan-300 [&:not([data-twe-collapse-collapsed])]:transparente-black text-cyan-300 [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
+                className="group relative flex w-full items-center rounded-none border-0 transparente-black text-cyan-400 px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:text-cyan-400 [&:not([data-twe-collapse-collapsed])]:transparente-black text-cyan-400 [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
                 type="button"
                 data-twe-collapse-init
                 data-twe-collapse-collapsed
@@ -122,7 +122,7 @@ const MyComponent = () => {
                 aria-expanded="false"
                 aria-controls="flush-collapseThree">
                 <div className="grid grid-cols-12 gap-4">        
-                    <div className="col-span-12 md:col-span-4 text-center"><h1 className="text-2xl">Porções</h1></div>
+                    <div className="col-span-12 md:col-span-4 text-center"><h1 className="text-2xl text-cyan-400">Porções</h1></div>
                </div>
                 <span
                 className="-me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
@@ -153,17 +153,18 @@ const MyComponent = () => {
             </div>
         </div>
         <div
-            className="rounded-none border border-b-0 border-e-0 border-s-0 border-t-0 border-neutral-200 transparente-black text-cyan-300 ">
+            className="rounded-none border border-b-0 border-e-0 border-s-0 border-t-0 border-neutral-200 transparente-black text-cyan-400 ">
             <h2 className="mb-0" id="flush-headingFour">
             <button
-                className="group relative flex w-full items-center rounded-none border-0 transparente-black text-cyan-300 px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:text-cyan-300 [&:not([data-twe-collapse-collapsed])]:transparente-black text-cyan-300 [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
+                className="group relative flex w-full items-center rounded-none border-0 transparente-black text-cyan-400 px-5 py-4 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:text-cyan-400 [&:not([data-twe-collapse-collapsed])]:transparente-black text-cyan-400 [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-white/10 "
                 type="button"
                 data-twe-collapse-init
                 data-twe-collapse-collapsed
                 data-twe-target="#flush-collapseFour"
                 aria-expanded="false"
                 aria-controls="flush-collapseFour">
-                    <div className="col-span-12 md:col-span-4 text-center"><h1 className="text-2xl">Bebidas</h1></div>
+                    <div className="col-span-12 md:col-span-4 text-center"><h1 className="text-2xl text-cyan-400">Bebidas</h1></div>
+                    <div></div>
                 <span
                 className="-me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
                 <svg

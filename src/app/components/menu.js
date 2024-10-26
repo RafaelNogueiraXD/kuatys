@@ -24,7 +24,7 @@ export default function Menu(){
     );
     return (
         <section>
-        <div className="grid grid-rows-3 grid-flow-col content-center p-2 shadow-lg shadow-cyan-500/50 transparente-primaria">
+        <div className="grid grid-rows-3 grid-flow-col content-center p-2 shadow-lg shadow-animation transparente-primaria">
           {/* Seção lateral com logo */}
           <div className="row-span-3 grid grid-rows-1 font-white justify-center">
             <div className="pt-4">
@@ -42,7 +42,7 @@ export default function Menu(){
           </div>
   
           {/* Seção principal com campo de pesquisa */}
-          <div className="row-span-3 col-span-4 content-center ">
+          {/* <div className="row-span-3 col-span-4 content-center ">
             <div className="input-container secundaria mb-4 ml-10">
               <input
                 type="text"
@@ -51,7 +51,7 @@ export default function Menu(){
                 className="border border-gray-300 rounded-md p-2 w-1/2"
               />
             </div>
-          </div>
+          </div> */}
         </div>
   
         {/* Renderiza a tabela apenas se houver algum filtro aplicado */}

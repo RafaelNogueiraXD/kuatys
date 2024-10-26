@@ -5,6 +5,12 @@ import Image from 'next/image';
 import Head from 'next/head';
 import petiscos2 from "./petiscos2.png"
 import "./globals.css"
+import barca from "./images/barca.jpeg"
+import footer2 from "./images/footer2.jpeg"
+import footer3 from "./images/footer3.jpeg"
+import footer4 from "./images/footer4.jpeg"
+import footer5 from "./images/footer5.jpeg"
+
 export const metadata = {
   title: 'Kuatys',
 }
@@ -115,61 +121,77 @@ export default function RootLayout({ children }) {
          
           <div className="mb-7 flex justify-center gap-x-5">
           <div className="relative w-full overflow-hidden bg-cover bg-no-repeat rounded-lg">
-            <img
+            {/* <img
               src="https://mdbootstrap.com/img/new/standard/city/091.webp"
               className="w-full"
               alt="Louvre"
-            />
+            /> */}
+
             <a href="#!">
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
             </a>
           </div>
 
           <div className="relative w-full overflow-hidden bg-cover bg-no-repeat rounded-lg">
-            <img
+            {/* <img
               src="https://mdbootstrap.com/img/new/standard/city/084.webp"
               className="w-full"
               alt="Louvre"
-            />
+            /> */}
+
             <a href="#!">
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
             </a>
           </div>
 
           <div className="relative w-full overflow-hidden bg-cover bg-no-repeat rounded-lg">
-            <img
+            {/* <img
               src="https://mdbootstrap.com/img/new/standard/city/086.webp"
               className="w-full"
               alt="Louvre"
-            />
+            /> */}
+
             <a href="#!">
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
             </a>
           </div>
 
           <div className="hidden sm:flex relative w-full overflow-hidden bg-cover bg-no-repeat rounded-lg">
-            <img
+            {/* <img
               src="https://mdbootstrap.com/img/new/standard/city/074.webp"
               className="w-full"
               alt="Louvre"
-            />
+            /> */}
+
             <a href="#!">
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
             </a>
           </div>
 
           <div className="hidden md:flex relative w-full overflow-hidden bg-cover bg-no-repeat rounded-lg">
-            <img
+            {/* <img
               src="https://mdbootstrap.com/img/new/standard/city/095.webp"
               className="w-full"
               alt="Louvre"
-            />
+            /> */}
+
             <a href="#!">
               <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100"></div>
             </a>
           </div>
         </div>
-
+          <div class="flex flex-wrap justify-center ">
+        <div class="w-64 h-48 bg-[#CFAF30] rounded-lg m-2 flex items-center justify-center ">
+            <Image src={footer4} width={266.67} height={200} className='rounded-lg' alt="Louvre"/>
+        </div>
+        <div class="w-64 h-48 bg-[#CFAF30] rounded-lg m-2 flex items-center justify-center">
+          <Image src={footer2} width={265.68} height={200}  className='rounded-lg' alt="Louvre"/>
+           
+        </div>
+        <div class="w-64 h-48 bg-[#CFAF30] rounded-lg m-2 flex items-center justify-center">
+            <Image src={footer3} width={266.67} height={200}className='rounded-lg' alt="Louvre"/>
+        </div>
+    </div>
 
           </div>
 
