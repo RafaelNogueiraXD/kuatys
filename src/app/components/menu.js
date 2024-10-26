@@ -19,9 +19,9 @@ export default function Menu(){
     ];
   
     // Filtra os itens com base no texto digitado
-    const filteredItems = cardapio['barcas'].filter((item) =>
-      item.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    // const filteredItems = cardapio['barcas'].filter((item) =>
+    //   item.name.toLowerCase().includes(searchTerm.toLowerCase())
+    // );
     return (
         <section>
         <div className="grid grid-rows-3 grid-flow-col content-center p-2 shadow-lg shadow-animation transparente-primaria">
@@ -36,7 +36,7 @@ export default function Menu(){
               </div>
             <div className="text-center pt-4">
               <h1 className="text-2xl slogan-titulo">
-                Kuatys
+                Kuatys <br/>Cardápio
               </h1>
             </div>
           </div>
@@ -55,14 +55,14 @@ export default function Menu(){
         </div>
   
         {/* Renderiza a tabela apenas se houver algum filtro aplicado */}
-        {filteredItems.length !== items.length && (
+        {/* {filteredItems.length !== items.length && (
           <div className="mt-4 transparente-black text-cyan-300 p-20">
             <Table items={filteredItems} />
             <hr
   className="my-12 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400" />
           </div>
           
-        )}
+        )} */}
       </section>
     )
 }

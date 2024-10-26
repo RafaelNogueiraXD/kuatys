@@ -5,7 +5,7 @@ const Table = ({ items }) => {
 
 
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto text-cyan-300">
       <table className="table-auto mx-auto border-collapse border border-gray-400">
         <thead className="border-b border-neutral-200 font-medium dark:border-white/10">
           <tr>
